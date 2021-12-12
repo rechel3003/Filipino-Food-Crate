@@ -1,8 +1,64 @@
 * {box-sizing: border-box;}
 
+.banner img {
+	width:100%;
+	height:300px;
+	opacity:50%;
+}
+
+.banner p {
+	position: absolute;
+	top:8%;
+	color: black;
+	width: 100%;
+	font-size: 75px;
+	text-align: center;
+	text-decoration:bold;
+}
+
+.np .previous {
+	position: absolute;
+	top:25%;
+	left:15%;
+}
+
+.np .next {
+	position: absolute;
+	top:25%;
+	right:15%;
+}
+
+
+.np a {
+  text-decoration: none;
+  display: inline-block;
+  font-size:30px;
+  padding:10px;
+}
+
+.np a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+ 
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
 
 .topnav {
   background-color: #e9e9e9;
+  display:block;
 }
 
 .topnav .search-container {
@@ -46,6 +102,7 @@
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
+  
 }
 .dropbtn {
   background-color: #71A253;
@@ -89,7 +146,7 @@
 
 .preview img {
 	height:200px;
-	width:200px;
+	width:300px;
 	float: left;
 	margin: 30px;
 }
@@ -113,5 +170,15 @@
 .preview .description {
 	text-align:justify;
 	text-indent:50px;
-	font-size:15px;
+	font-size:20px;
+}
+
+.select {
+	text-decoration:none;
+	color:black;
+}
+
+.preview:hover {
+	opacity:50%;
+	
 }
